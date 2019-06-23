@@ -1,0 +1,23 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.mock-content {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.mock-filler {
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(45deg, #eeeeee, #eeeeee 10px, #dddddd 20px, #eeeeee 5px);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-size: 24px;
+}

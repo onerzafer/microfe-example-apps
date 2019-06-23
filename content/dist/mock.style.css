@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.mock-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mock-footer {
+  height: 160px;
+  box-sizing: border-box;
+}
+
+.mock-filler {
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    #eeeeee,
+    #eeeeee 10px,
+    #dddddd 20px,
+    #eeeeee 5px
+  );
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666666;
+  font-size: 24px;
+}
